@@ -367,8 +367,7 @@ import { getResBaseURL } from "../util-frontend";
 import { STATUS_PAGE_ALL_DOWN, STATUS_PAGE_ALL_UP, STATUS_PAGE_MAINTENANCE, STATUS_PAGE_PARTIAL_DOWN, UP, MAINTENANCE } from "../util.ts";
 import Tag from "../components/Tag.vue";
 import VueMultiselect from "vue-multiselect";
-import HeartbeatBar from "../components/HeartbeatBar.vue";
-const PingChart = defineAsyncComponent(() => import("../components/PingChart.vue"));
+
 
 const toast = useToast();
 dayjs.extend(duration);
@@ -392,8 +391,7 @@ export default {
         MaintenanceTime,
         DateTime,
         Tag,
-        PingChart,
-        HeartbeatBar,
+        
         VueMultiselect
     },
 
